@@ -1,0 +1,84 @@
+*
+{
+    margin :0;
+    padding :0;
+}
+body {
+  background-color: rgb(233, 243, 243);
+  font-family: arial,sans serif;
+
+}
+header{
+    background-color: rgb(59, 58, 58);
+    color: white;
+    line-height: 50px;
+    padding: 1rem;
+    text-align: center;
+
+}
+li{
+display:inline;
+margin-right: 1rem;
+font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+  
+}
+main{
+    margin-top :2rem;
+    margin-left:2rem ;
+}
+h2{
+    margin-bottom: 1rem;
+}
+section{
+    margin-bottom: 1rem;
+}
+@keyframes blink{
+    50%{
+        opacity :0
+    }
+    
+}
+
+.event{
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.announcements{
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+p1{
+    animation : blink 3s linear infinite;
+}
+
+form{
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+textarea{
+    width:100%;
+    padding:2 rem;
+    border-radius:5px ;
+    margin-bottom:1 rem;
+}
+button{
+    width: 100%;
+    background-color: blue;
+    color: #fff;
+    padding:1 rem ;
+    border-radius:5px ;
+    cursor: pointer;
+
+}
